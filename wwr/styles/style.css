@@ -1,0 +1,52 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav a {
+    text-align: center;
+    color: black;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #8ecae6; 
+    text-align: center;
+}
+header {
+    background-color: #219ebc;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #023047;
+}
+.msg {
+    background-color: #023047;
+}     
+#background {
+    background-color: #023047;
+}  
+footer p {
+    background-color: #219ebc;
+    font-size: 1.2em;
+    text-align: center;
+}      
+footer p a:hover {
+    text-decoration: underline;
+}    
+.icon .logo{
+    width: 80px;
+}    
