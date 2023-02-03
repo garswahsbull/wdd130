@@ -1,0 +1,32 @@
+.gaga img{
+    margin: auto;
+    width: 100%;
+}
+.giant {
+    align-items: center;
+    background-color: gray;
+    margin: auto;
+    width: 100%;
+    padding: 50px 50px;
+
+}
+.desk {
+    width: 20%;
+    border-radius: 50%;
+    border-width: 50%;
+    border-color: solid darkslategray;
+    padding: 40px 40px;
+}
+.graphic {
+    width: 20%;
+    border-radius: 50%;
+    border-width: 10px;
+    padding: 40px;
+}
+.person {
+    width: 20%;
+    border-radius: 50%;
+    border-width: 20px;
+    border-color: solid black;
+    padding: 40px;
+}

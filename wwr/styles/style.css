@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Roboto&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,12 +9,25 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
+#logo_link {
+    padding-top: 5px;
+}
+.home-title {
+    margin-top: 10px;
+    font-family: 'Robto', 'IM Fell Canon';
+    font-size: 2em;
+}
+            
 #hero-msg h1 {
     text-align: center;
+    font-family: 'IM Fell Canon';
+    font-size:xx-large;
 }
 #hero-msg h4 {
     text-align: center;
+    font-family: 'IM Fell Canon';
 }
 .button-box {
     text-align: center;
@@ -21,29 +36,49 @@ main section {
     text-align: center;
 }
 #background {
+    background-color: #023047;
     height: 725px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 35px;
 }
 body {
     background-color: #8ecae6; 
     text-align: center;
+    font-family: 'IM Fell Canon', 'Roboto';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #219ebc;
     text-align: center;
+    font-family: 'IM Fell Canon';
 }
 nav a:hover {
     background-color: #023047;
 }
 .msg {
     background-color: #023047;
+    font-family: 'IM Fell Canon';
+    line-height: 1.5em;
+    padding: 35px;
+}   
+.msg p  {
+    font-size: 2em;
+    padding-bottom: 15px;
 }     
-#background {
-    background-color: #023047;
-}  
+footer {
+    margin-top: 200px;
+}
 footer p {
     background-color: #219ebc;
     font-size: 1.2em;
     text-align: center;
+    padding: 25px 50px;
 }      
 footer p a:hover {
     text-decoration: none;
@@ -51,6 +86,34 @@ footer p a:hover {
 footer a {
     text-decoration: none;
 }
+footer .social img{
+    padding-top: 15px;
+}
 .icon .logo{
     width: 80px;
-}    
+    padding-top: 10px;
+}  
+.book .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+} 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+} 
+.card-img {
+    border: 10px solid #023047;
+}
+main section img {
+    box-sizing: border-box;
+}
+.mountain {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 35px;
+
+}
